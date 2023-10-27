@@ -32,8 +32,7 @@ object frmMain: TfrmMain
     Height = 13
     Align = alBottom
     Caption = 'Result'
-    ExplicitLeft = 8
-    ExplicitTop = 182
+    ExplicitWidth = 30
   end
   object rgOption: TRadioGroup
     AlignWithMargins = True
@@ -58,11 +57,11 @@ object frmMain: TfrmMain
     Width = 562
     Height = 214
     Align = alClient
+    Lines.Strings = (
+      'asd123qwe457rty89234'
+      '567zx01245cvbnm')
     ScrollBars = ssBoth
     TabOrder = 1
-    ExplicitLeft = -2
-    ExplicitTop = 32
-    ExplicitHeight = 44
   end
   object btnSearch: TButton
     AlignWithMargins = True
@@ -74,8 +73,6 @@ object frmMain: TfrmMain
     Caption = 'Search sequencies'
     TabOrder = 2
     OnClick = btnSearchClick
-    ExplicitLeft = 8
-    ExplicitTop = 218
   end
   object memoResult: TMemo
     AlignWithMargins = True
